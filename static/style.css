@@ -1,0 +1,64 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+.templates {
+	display: none;
+}
+.main {
+	width: 1024px;
+	border-left: solid 1px black;
+	border-right: solid 1px black;
+	height: 100%;
+	position: relative;
+	margin: 0 auto;
+}
+.screen {
+	position: absolute;
+	top: 0;
+	bottom: 50px;
+	width: 100%;
+}
+.problem {
+	position: absolute;
+	right: 150px;
+	top: 0;
+	bottom: 0;
+	overflow-y: auto;
+}
+.tmp1-problem-stub {
+	margin: 15px 0;
+}
+.tmp1-answer-stub-choice {
+	float: right;
+	padding-right: 10px;
+}
+.tmp1-answer-stub-text {
+	float: right;
+	padding-right: 10px;
+}
+.main-result {
+	border-left: solid 1px black;
+	height: 100%;
+	width: 150px;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.main-footer {
+	border-top: solid 1px black;
+	height: 50px;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+}
+.submit {
+	height: 40px;
+	width: 135px;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	right: 10px;
+}

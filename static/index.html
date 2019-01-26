@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="./style.css">
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+		<script src="./app.js"></script>
+	</head>
+	<body>
+		<section class="main">
+			<section class="screen">
+				<form id="form">
+				<div class="problem">
+				</div>
+			</form>
+				<aside class="main-result"></aside>
+			</section>
+			<footer class="main-footer">
+				<button class="submit">제출</button>
+			</footer>
+		</section>
+
+		<section class="templates">
+			<div class="tmp1-problem-stub">
+				<span class="id"></span>
+				<span class="problem-text"></span>
+				<div class="answer-user"></div>
+				<div class="answer-right"></div>
+			</div>
+			<div class="tmp1-answer-stub-choice">
+				<span class="label1"></span>
+				<input type="radio" value="1">
+				<span class="choice"></span>
+				<input type="radio" value="2">
+				<span class="choice"></span>
+				<input type="radio" value="3">
+				<span class="choice"></span>
+				<input type="radio" value="4">
+				<span class="choice"></span>
+				<input type="radio" value="5">
+				<span class="choice"></span>
+			</div>
+			<div class="tmp1-answer-stub-text">
+				<span class="label"></span>
+				<input type="text" class="value">
+			</div>
+			<div class="tmp1-answer-stub-draw">
+				<span class="label"></span>
+				<canvas class="canvas">
+			</div>
+			<div class="tmp1-result-stub">
+				<span class="id"></span>
+				<span class="result"></span>
+			</div>
+		</section>
+	</body>
+</html>
