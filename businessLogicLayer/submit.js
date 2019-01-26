@@ -5,8 +5,8 @@ module.exports = async (models, req, res) => {
     const results = problems.map((problem, idx) => {
         return {
             id: problem.id,
-            result: (input.idx === problem.answer),
-            answer: input.idx
+            result: (input[idx+1] === problem.answer),
+            answer: input[idx+1]
             // result: (input.[idx].answer === problem.answer),
             // answer: input[idx].answer
         };
