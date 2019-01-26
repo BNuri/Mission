@@ -6,7 +6,7 @@ module.exports = async (models, req, res) => {
         return {
             id: problem.id,
             result: (input[idx+1] === problem.answer),
-            answer: input[idx+1]
+            answer: problem.answer
             // result: (input.[idx].answer === problem.answer),
             // answer: input[idx].answer
         };

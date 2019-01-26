@@ -32,11 +32,11 @@ html, body {
 	margin: 15px 0;
 }
 .tmp1-answer-stub-choice {
-	float: right;
+	text-align: right;
 	padding-right: 10px;
 }
 .tmp1-answer-stub-text {
-	float: right;
+	text-align: right;
 	padding-right: 10px;
 }
 .main-result {
