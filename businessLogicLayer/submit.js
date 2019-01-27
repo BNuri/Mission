@@ -1,13 +1,12 @@
 module.exports = async (models, req, res) => {
-    //const input = JSON.parse(req.body.input);
-    const input = req.body;
+    // const input = JSON.parse(req.body.input);
+    const input = req.body.input;
     const problems = await models.Problem.findAll({});
     const results = problems.map((problem, idx) => {
         return {
             id: problem.id,
-            result: (input[idx+1] === problem.answer),
+            result: (input[idx].answer === problem.answer),
             answer: problem.answer
-            // result: (input.[idx].answer === problem.answer),
             // answer: input[idx].answer
         };
     });
